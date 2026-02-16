@@ -12,7 +12,7 @@ tags:
 * * *
 
 在开发瑞吉外卖时遇到的错误，原因是数据库员工表id字段未设置自增，在yml中的mybatis-plus插件中设置数据库自增，调用mp的save时，问题得以解决。  
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/1eb07e55a5c02aa6d467fad056f0b017.png)
+![在这里插入图片描述](/images/csdn/3c1056399515.png)
     
     
     mybatis-plus:

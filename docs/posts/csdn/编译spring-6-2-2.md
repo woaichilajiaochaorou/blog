@@ -18,7 +18,7 @@ tags:
 
 下载gradle，这是spring项目的依赖管理工具，本文下载的是8.12.1。  
 gradle idea配置如下：在你的settings中设置  
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/d74caeb7d6a84b228b3b8fcb6755c495.png)
+![在这里插入图片描述](/images/csdn/bb442664b7e6.png)
 
 [gradle下载](<https://gradle.org/>)
 
@@ -29,17 +29,17 @@ gradle idea配置如下：在你的settings中设置
 #### 编译Spring 6.2.2
 
 注意观察Spring 项目文件夹下的import-into-idea.md  
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/c8ce1dc9962348c096945b26e5da1d21.png)1\. 需要预编译spring-oxm，在项目文件夹打开命令行，按照文档中的指导，执行步骤即可。  
+![在这里插入图片描述](/images/csdn/3f559e161ac5.png)1\. 需要预编译spring-oxm，在项目文件夹打开命令行，按照文档中的指导，执行步骤即可。  
 2\. 记得排除掉aspect 模块。
 
 #### 创建你自己的模块
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/e81815223d20435ea45b81315b33b438.png)  
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/03e98820d7544fa29348eac353d0faae.png)
+![在这里插入图片描述](/images/csdn/561f9e1ac1cd.png)  
+![在这里插入图片描述](/images/csdn/30a80723deac.png)
 
 ##### gradle引入其他模块
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/603d8db24724438c864f2e82b8cd3636.png)
+![在这里插入图片描述](/images/csdn/3d3560d89d23.png)
 
 可以愉快的debug spring了！
 

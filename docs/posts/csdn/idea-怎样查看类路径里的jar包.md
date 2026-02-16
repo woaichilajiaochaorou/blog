@@ -8,6 +8,6 @@ tags:
 # idea 怎样查看类路径里的jar包
 
 第一步：  
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/0176bd55663da23ef2054bcb8edca500.png)  
+![在这里插入图片描述](/images/csdn/c7fd588b74ff.png)  
 打开project structure  
 这里就可以看到了

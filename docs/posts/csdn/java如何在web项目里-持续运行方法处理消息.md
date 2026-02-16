@@ -11,14 +11,14 @@ tags:
 
 ##### 第一步，将要运行的方法的类 实现runnable接口。
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/d276c4ab0931766bc6ce13a8c6ae677a.png)
+![在这里插入图片描述](/images/csdn/d94a43988193.png)
 
 #### 第二步，实现listener 如图。
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/3345316a90df56487b5f7f80b5c25e3f.png)
+![在这里插入图片描述](/images/csdn/006eb2aeac6f.png)
 
 ##### 第三步配置你的web.xml 。
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/4218629445efdf062539aff0197bf128.png)
+![在这里插入图片描述](/images/csdn/f8286db273a2.png)
 
 ## 完成

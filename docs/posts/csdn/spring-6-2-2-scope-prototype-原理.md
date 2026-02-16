@@ -25,7 +25,7 @@ tags:
     
 
   2. 创建一个main类，用于debug。  
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/97bc85f7559a4683890d92c9df878a37.png)
+![在这里插入图片描述](/images/csdn/a475bcc93165.png)
 
 #### prototype 如何生效？
 

@@ -12,4 +12,4 @@ tags:
 **解决办法：**
 
 在方法上面加上@ResponseBody  
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/90b4ae93b8d2c9c5de3bde34708a1a9c.png)
+![在这里插入图片描述](/images/csdn/56b95e98fdfc.png)

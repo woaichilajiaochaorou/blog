@@ -149,8 +149,8 @@ tags:
 
 ### 普通用户登录
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/25d27ecf3cb9b32aad9c85e84154198b.png)  
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/73cbef562e28131bb9209714328b6828.png)
+![在这里插入图片描述](/images/csdn/1cfe610c314e.png)  
+![在这里插入图片描述](/images/csdn/311296eaae2f.png)
 
 #### 显示你好user
 
@@ -158,5 +158,5 @@ tags:
 
 ### 管理员登录、
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/80b9d7fd8146775e70a3a2e23563361d.png)  
+![在这里插入图片描述](/images/csdn/07f36aeadade.png)  
 显示你好管理员，

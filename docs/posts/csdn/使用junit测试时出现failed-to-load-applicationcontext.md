@@ -8,4 +8,4 @@ tags:
 # 使用junit测试时出现Failed to load ApplicationContext
 
 我的是一个web项目 加上这些注解就可以了  
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/d1a0b78f32014bba81bd1851e326876c.png)
+![在这里插入图片描述](/images/csdn/cd21e7dd2e23.png)

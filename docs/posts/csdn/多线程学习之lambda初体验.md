@@ -46,4 +46,4 @@ lambda表达式 简化函数式接口实现的过程。
 这无疑极大的简化了书写。
 
 **运行结果：**  
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/f63cb24966dfbadd30c163ae2da95db0.png)
+![在这里插入图片描述](/images/csdn/27b44da04ffd.png)

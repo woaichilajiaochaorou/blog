@@ -14,7 +14,7 @@ tags:
 * * *
 
 在settings中找到这个目录  
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/5eefb2815643724344489104e6ceb5a0.png)  
+![在这里插入图片描述](/images/csdn/d3117eee712a.png)  
 然后：  
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/b84db2b001d05bef77ef369411889ad5.png)  
+![在这里插入图片描述](/images/csdn/3e71f1c33eae.png)  
 错误解决。

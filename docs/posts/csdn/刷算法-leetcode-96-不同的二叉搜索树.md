@@ -7,7 +7,7 @@ tags:
 
 # 刷算法-- leetcode 96. 不同的二叉搜索树
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/bbe373b02917ef7db2542b3ccd63810b.png)
+![在这里插入图片描述](/images/csdn/3d210a681921.png)
 
 ### 思路
 
