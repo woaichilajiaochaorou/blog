@@ -1,0 +1,15 @@
+---
+title: "后端数据库中返回date日期时 前端显示为一串数字"
+date: 2020-12-05
+description: "解决方法：加上JsonFormat注解出参时自动转换为设定格式 问题解决 ！（也可以把数据库的格式变成字符串存入数据库）"
+tags:
+  - CSDN迁移
+---
+
+# 后端数据库中返回date日期时 前端显示为一串数字
+
+解决方法：加上JsonFormat注解  
+![在这里插入图片描述](https://i-blog.csdnimg.cn/blog_migrate/9e86655bedbe1b6d2718b68c561f8ed7.png)  
+出参时自动转换为设定格式 问题解决 ！
+
+（也可以把数据库的格式变成字符串存入数据库）
