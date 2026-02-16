@@ -1,7 +1,6 @@
 ---
 title: "一句话让spring-boot帮我开启浏览器参数内容协商策略"
 date: 2021-08-24
-description: "一句话：背后的原理：当我们开启参数协商以后在RequestResponseBodyMethodProcessor里 有个方法有个writeWithMessageConverter 这里包含消息的读和写操作 进入查看发现：里面有个获取request的可以接受的类型 继续进入调用了一个内容协商管理器的方法。进入方法此方法遍历所有的strategy 我们查看此时的策略发现此时存在两个策略一个是参数内容协"
 tags:
   - CSDN迁移
 ---

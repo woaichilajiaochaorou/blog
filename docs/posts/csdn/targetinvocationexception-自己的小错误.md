@@ -1,7 +1,6 @@
 ---
 title: "targetinvocationexception 自己的小错误"
 date: 2020-10-19
-description: "用反射的时候 报了targetinvokeception查了百度 搞半天 结果发现自己没开 redis 服务器开了以后报错java.lang.reflect.InvocationTargetExceptionat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jd"
 tags:
   - CSDN迁移
 ---

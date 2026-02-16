@@ -1,7 +1,6 @@
 ---
 title: "idea 使用ehcache报红找不到 http://ehcache.org/ehcache.xsd"
 date: 2021-05-31
-description: "直接上步骤 ：在settings中找到这个目录然后：错误解决。"
 tags:
   - CSDN迁移
 ---

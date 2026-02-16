@@ -1,7 +1,6 @@
 ---
 title: "controller sout 乱码"
 date: 2021-03-22
-description: "碰到个问题，改了我半天。设置 vm option -Dfile.encoding=UTF-8 就好了"
 tags:
   - CSDN迁移
 ---

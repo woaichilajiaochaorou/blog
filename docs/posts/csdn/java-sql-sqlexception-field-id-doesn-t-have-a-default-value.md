@@ -1,7 +1,6 @@
 ---
 title: "java.sql.SQLException: Field ‘id‘ doesn‘t have a default value"
 date: 2022-12-30
-description: "开发瑞吉外卖遇到了错误"
 tags:
   - CSDN迁移
 ---

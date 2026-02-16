@@ -1,7 +1,6 @@
 ---
 title: "shiro加密"
 date: 2021-06-02
-description: "1.如何把一个字符串加密为MD52.	替换当前realm的credentialManager 属性直接使用hashedCredentialMatcher并设置属性 加密算法即可。配置如下：比较的步骤首先在getpassword打个断点下一步进入这个方法 设置credential为password接下来对token的credential进行加密。也就是对password下一步对token 加密后的值"
 tags:
   - CSDN迁移
 ---

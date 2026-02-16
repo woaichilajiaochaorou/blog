@@ -1,7 +1,6 @@
 ---
 title: "java url调用接口"
 date: 2021-05-25
-description: "话不多说 上步骤url = new URL('你的url');//设置请求方式HttpURLConnection connection = (HttpURLConnection) url.openConnection();connection.setRequestMethod('GET');connection.setRequestProperty('content-type', 'applica"
 tags:
   - CSDN迁移
 ---

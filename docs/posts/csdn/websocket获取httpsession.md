@@ -1,7 +1,6 @@
 ---
 title: "webSocket获取httpsession"
 date: 2021-05-21
-description: "websocket使用握手拦截器public class HttpSessionHandshakeInterceptor extends org.springframework.web.socket.server.support.HttpSessionHandshakeInterceptor {    @Override    public boolean beforeHandshake(Serv"
 tags:
   - CSDN迁移
 ---
@@ -13,7 +12,7 @@ websocket使用握手拦截器
     
     public class HttpSessionHandshakeInterceptor extends org.springframework.web.socket.server.support.HttpSessionHandshakeInterceptor {
         @Override
-        public boolean beforeHandshake(ServerHttpRequest request, ServerHttpResponse response, WebSocketHandler wsHandler, Map<String, Object> attributes) throws Exception {
+        public boolean beforeHandshake(ServerHttpRequest request, ServerHttpResponse response, WebSocketHandler wsHandler, Map&lt;String, Object&gt; attributes) throws Exception {
             if (request instanceof HttpRequest){
               ServletServerHttpRequest httpRequest=(ServletServerHttpRequest) request;
                 HttpSession session = httpRequest.getServletRequest().getSession();
@@ -60,7 +59,7 @@ websocket使用握手拦截器
          */
         private static int onlineCounts=0;
     
-        private static Map<String, WebSocketSession> clients = new ConcurrentHashMap<String, WebSocketSession>(20);
+        private static Map&lt;String, WebSocketSession&gt; clients = new ConcurrentHashMap&lt;String, WebSocketSession&gt;(20);
         /**
          * 连接时客户端session
          */

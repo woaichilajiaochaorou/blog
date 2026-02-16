@@ -1,7 +1,6 @@
 ---
 title: "element ui tree组件setCheckedKeys报错"
 date: 2023-02-15
-description: "element ui tree组件报错"
 tags:
   - CSDN迁移
 ---

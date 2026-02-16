@@ -1,7 +1,6 @@
 ---
 title: "html 使用shiro标签 thymeleaf"
 date: 2021-06-13
-description: "这是spring.xml的配置文件，<!--使用thyme leaf-->    <!--视图解析器-->    <bean id='templateResolver' class='org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver'>        <property name='prefix' value"
 tags:
   - CSDN迁移
 ---
@@ -13,28 +12,28 @@ tags:
     
     <!--使用thyme leaf-->
         <!--视图解析器-->
-        <bean id="templateResolver" class="org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver">
-            <property name="prefix" value="/"></property>
-            <property name="suffix" value=".html"></property>
-            <property name="templateMode" value="HTML"></property>
-            <property name="cacheable" value="false"/>
-            <property name="characterEncoding" value="UTF-8"/>
-        </bean>
+        &lt;bean id="templateResolver" class="org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver"&gt;
+            &lt;property name="prefix" value="/"&gt;&lt;/property&gt;
+            &lt;property name="suffix" value=".html"&gt;&lt;/property&gt;
+            &lt;property name="templateMode" value="HTML"&gt;&lt;/property&gt;
+            &lt;property name="cacheable" value="false"/&gt;
+            &lt;property name="characterEncoding" value="UTF-8"/&gt;
+        &lt;/bean&gt;
     
-        <bean id="templateEngine" class="org.thymeleaf.spring5.SpringTemplateEngine">
-            <property name="templateResolver" ref="templateResolver"></property>
-            <property name="additionalDialects">
-                <set>
+        &lt;bean id="templateEngine" class="org.thymeleaf.spring5.SpringTemplateEngine"&gt;
+            &lt;property name="templateResolver" ref="templateResolver"&gt;&lt;/property&gt;
+            &lt;property name="additionalDialects"&gt;
+                &lt;set&gt;
                     <!--方言解释器-->
-                    <bean class="at.pollux.thymeleaf.shiro.dialect.ShiroDialect"/>
-                </set>
-            </property>
-        </bean>
+                    &lt;bean class="at.pollux.thymeleaf.shiro.dialect.ShiroDialect"/&gt;
+                &lt;/set&gt;
+            &lt;/property&gt;
+        &lt;/bean&gt;
     
-        <bean id="viewResolver" class="org.thymeleaf.spring5.view.ThymeleafViewResolver">
-            <property name="templateEngine" ref="templateEngine"/>
-            <property name="characterEncoding" value="UTF-8"/>
-        </bean>
+        &lt;bean id="viewResolver" class="org.thymeleaf.spring5.view.ThymeleafViewResolver"&gt;
+            &lt;property name="templateEngine" ref="templateEngine"/&gt;
+            &lt;property name="characterEncoding" value="UTF-8"/&gt;
+        &lt;/bean&gt;
     
 
 ## 这是pom.xml
@@ -42,110 +41,110 @@ tags:
     
      <!--Shiro-->
             <!--集成spring-->
-            <dependency>
-                <groupId>org.apache.shiro</groupId>
-                <artifactId>shiro-spring</artifactId>
-                <version>1.7.1</version>
-            </dependency>
+            &lt;dependency&gt;
+                &lt;groupId&gt;org.apache.shiro&lt;/groupId&gt;
+                &lt;artifactId&gt;shiro-spring&lt;/artifactId&gt;
+                &lt;version&gt;1.7.1&lt;/version&gt;
+            &lt;/dependency&gt;
             <!--web项目-->
-            <dependency>
-                <groupId>org.apache.shiro</groupId>
-                <artifactId>shiro-web</artifactId>
-                <version>1.7.1</version>
-            </dependency>
+            &lt;dependency&gt;
+                &lt;groupId&gt;org.apache.shiro&lt;/groupId&gt;
+                &lt;artifactId&gt;shiro-web&lt;/artifactId&gt;
+                &lt;version&gt;1.7.1&lt;/version&gt;
+            &lt;/dependency&gt;
             <!--shiro日志-->
     
     
             <!-- shiro  -->
-            <dependency>
-                <groupId>org.apache.shiro</groupId>
-                <artifactId>shiro-all</artifactId>
-                <version>1.7.1</version>
-            </dependency>
+            &lt;dependency&gt;
+                &lt;groupId&gt;org.apache.shiro&lt;/groupId&gt;
+                &lt;artifactId&gt;shiro-all&lt;/artifactId&gt;
+                &lt;version&gt;1.7.1&lt;/version&gt;
+            &lt;/dependency&gt;
     
             <!-- 引入ehcache的依赖,给shiro做缓存权限用的 -->
-            <dependency>
-                <groupId>net.sf.ehcache</groupId>
-                <artifactId>ehcache</artifactId>
-                <version>2.10.6</version>
-            </dependency>
+            &lt;dependency&gt;
+                &lt;groupId&gt;net.sf.ehcache&lt;/groupId&gt;
+                &lt;artifactId&gt;ehcache&lt;/artifactId&gt;
+                &lt;version&gt;2.10.6&lt;/version&gt;
+            &lt;/dependency&gt;
     
     
     
-            <dependency>
-                <groupId>org.apache.shiro</groupId>
-                <artifactId>shiro-core</artifactId>
-                <version>1.4.1</version>
-            </dependency>
+            &lt;dependency&gt;
+                &lt;groupId&gt;org.apache.shiro&lt;/groupId&gt;
+                &lt;artifactId&gt;shiro-core&lt;/artifactId&gt;
+                &lt;version&gt;1.4.1&lt;/version&gt;
+            &lt;/dependency&gt;
     
             <!-- Shiro uses SLF4J for logging.  We'll use the 'simple' binding
                  in this example app.  See http://www.slf4j.org for more info. -->
-            <dependency>
-                <groupId>org.slf4j</groupId>
-                <artifactId>slf4j-simple</artifactId>
-                <version>1.7.21</version>
-                <scope>compile</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.slf4j</groupId>
-                <artifactId>jcl-over-slf4j</artifactId>
-                <version>1.7.21</version>
-                <scope>compile</scope>
-            </dependency>
+            &lt;dependency&gt;
+                &lt;groupId&gt;org.slf4j&lt;/groupId&gt;
+                &lt;artifactId&gt;slf4j-simple&lt;/artifactId&gt;
+                &lt;version&gt;1.7.21&lt;/version&gt;
+                &lt;scope&gt;compile&lt;/scope&gt;
+            &lt;/dependency&gt;
+            &lt;dependency&gt;
+                &lt;groupId&gt;org.slf4j&lt;/groupId&gt;
+                &lt;artifactId&gt;jcl-over-slf4j&lt;/artifactId&gt;
+                &lt;version&gt;1.7.21&lt;/version&gt;
+                &lt;scope&gt;compile&lt;/scope&gt;
+            &lt;/dependency&gt;
     
-            <dependency>
-                <groupId>org.thymeleaf</groupId>
-                <artifactId>thymeleaf</artifactId>
-                <version>3.0.10.RELEASE</version>
-            </dependency>
+            &lt;dependency&gt;
+                &lt;groupId&gt;org.thymeleaf&lt;/groupId&gt;
+                &lt;artifactId&gt;thymeleaf&lt;/artifactId&gt;
+                &lt;version&gt;3.0.10.RELEASE&lt;/version&gt;
+            &lt;/dependency&gt;
     
-            <dependency>
-                <groupId>org.thymeleaf</groupId>
-                <artifactId>thymeleaf-spring5</artifactId>
-                <version>3.0.10.RELEASE</version>
-            </dependency>
+            &lt;dependency&gt;
+                &lt;groupId&gt;org.thymeleaf&lt;/groupId&gt;
+                &lt;artifactId&gt;thymeleaf-spring5&lt;/artifactId&gt;
+                &lt;version&gt;3.0.10.RELEASE&lt;/version&gt;
+            &lt;/dependency&gt;
     
-            <dependency>
-                <groupId>com.github.theborakompanioni</groupId>
-                <artifactId>thymeleaf-extras-shiro</artifactId>
-                <version>2.0.0</version>
-            </dependency>
+            &lt;dependency&gt;
+                &lt;groupId&gt;com.github.theborakompanioni&lt;/groupId&gt;
+                &lt;artifactId&gt;thymeleaf-extras-shiro&lt;/artifactId&gt;
+                &lt;version&gt;2.0.0&lt;/version&gt;
+            &lt;/dependency&gt;
     
-            <dependency>
-                <groupId>org.attoparser</groupId>
-                <artifactId>attoparser</artifactId>
-                <version>2.0.0.RELEASE</version>
-            </dependency>
+            &lt;dependency&gt;
+                &lt;groupId&gt;org.attoparser&lt;/groupId&gt;
+                &lt;artifactId&gt;attoparser&lt;/artifactId&gt;
+                &lt;version&gt;2.0.0.RELEASE&lt;/version&gt;
+            &lt;/dependency&gt;
     
 
 ## 以下是html
     
     
-    <html lang="en" xmlns:th="http://www.thymeleaf.org"
-          xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
+    &lt;html lang="en" xmlns:th="http://www.thymeleaf.org"
+          xmlns:shiro="http://www.pollix.at/thymeleaf/shiro"&gt;
     
-    <head>
-        <meta charset="UTF-8">
-        <title>index</title>
-    </head>
-    <body>
+    &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;title&gt;index&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
     
-    <h1>index</h1>
-    <a  href="/logout">logout</a>
+    <h1>index&lt;/h1&gt;
+    <a  href="/logout">logout&lt;/a&gt;
     <br><br>
     
-    <a href="common.html">一般用户</a>
-    <a href="admin.html">管理员</a>
+    <a href="common.html">一般用户&lt;/a&gt;
+    <a href="admin.html">管理员&lt;/a&gt;
     
     <p shiro:hasRole="admin">
     你好 管理员！
-    </p>
-    <a shiro:hasRole="user">你好user</a>
-    <a href="/shiroTest">测试时间</a>
+    &lt;/p&gt;
+    <a shiro:hasRole="user">你好user&lt;/a&gt;
+    <a href="/shiroTest">测试时间&lt;/a&gt;
     
     
-    </body>
-    </html>
+    &lt;/body&gt;
+    &lt;/html&gt;
     
 
 ### 普通用户登录

@@ -1,7 +1,6 @@
 ---
 title: "idea 怎样查看类路径里的jar包"
 date: 2021-06-05
-description: "第一步：打开project structure这里就可以看到了"
 tags:
   - CSDN迁移
 ---

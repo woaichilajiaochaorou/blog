@@ -1,16 +1,15 @@
 ---
 title: "初学算法之二叉树---求树的高度 pta"
 date: 2021-07-15
-description: "#include <stdio.h>#include <stdlib.h>#include <algorithm>typedef char ElementType;typedef struct TNode *Position;typedef Position BinTree;struct TNode{    ElementType Data;    BinTree Left;    BinTree"
 tags:
   - CSDN迁移
 ---
 
 # 初学算法之二叉树---求树的高度 pta
 
-#include <stdio.h>
-    #include <stdlib.h>
-    #include <algorithm>
+#include `&lt;stdio.h&gt;`
+    #include `&lt;stdlib.h&gt;`
+    #include `&lt;algorithm&gt;`
     typedef char ElementType;
     typedef struct TNode *Position;
     typedef Position BinTree;

@@ -1,7 +1,6 @@
 ---
 title: "实现strcta函数"
 date: 2020-03-11
-description: "实现strcat函数#include <stdio.h>#include <string.h>#define MAXS 10char *str_cat( char *s, char *t ){	int i=0;	int j=0;	for(i=strlen(s);i<(strlen(s)+strlen(t));i++){				s[i]=t[j]..."
 tags:
   - CSDN迁移
 ---
@@ -11,8 +10,8 @@ tags:
 **实现strcat函数**
     
     
-    #include <stdio.h>
-    #include <string.h>
+    #include `&lt;stdio.h&gt;`
+    #include `&lt;string.h&gt;`
     
     #define MAXS 10
     

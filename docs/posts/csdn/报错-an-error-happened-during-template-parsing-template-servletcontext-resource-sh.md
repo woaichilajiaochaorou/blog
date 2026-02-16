@@ -1,7 +1,6 @@
 ---
 title: "报错 An error happened during template parsing (template: “ServletContext resource [/shiroTest.html]“)"
 date: 2021-06-06
-description: "使用thymeleaf视图解析器 这是因为模板解析器出现了错误刚上手thymeleaf不会用解决办法：在方法上面加上@ResponseBody"
 tags:
   - CSDN迁移
 ---

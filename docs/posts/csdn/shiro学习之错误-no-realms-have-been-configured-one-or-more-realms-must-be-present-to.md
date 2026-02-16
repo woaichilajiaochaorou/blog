@@ -1,7 +1,6 @@
 ---
 title: "shiro学习之错误 No realms have been configured! One or more realms must be present to execute an authori"
 date: 2021-06-04
-description: "看老师的配置文件，配置授权的时候忘记写如下配置：出现错误：No realms have been configured!  One or more realms must be present to execute an authorization operation.要使用授权功能 必须在securityManager中 加入realms （多realm情况下）同时有以下配置：..."
 tags:
   - CSDN迁移
 ---

@@ -1,7 +1,6 @@
 ---
 title: "关于Java多态的笔记"
 date: 2020-06-05
-description: "面向对象的三大特征：继承 extends，封装，多态。多态：父类引用子类对象老毕说的：编译看左边 运行看右边什么意思呢？public class demo {    public static void main(String[] args) {        fu son =new zi();        son.method();//如果父类方法被子类重写则优先调用子类方法    }}pub"
 tags:
   - CSDN迁移
 ---

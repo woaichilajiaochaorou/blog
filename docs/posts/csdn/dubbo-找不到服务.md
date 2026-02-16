@@ -1,7 +1,6 @@
 ---
 title: "Dubbo 找不到服务"
 date: 2021-09-15
-description: "倒大霉，我的老卑鄙如果你的service 有几个版本 记得再dubboReference上加上 version属性 操！"
 tags:
   - CSDN迁移
 ---

@@ -1,7 +1,6 @@
 ---
 title: "Spring 使用websocket的一些问题点"
 date: 2021-05-20
-description: "首先我被Spring版本坑惨了，在使用5.3.6版本时，在配置websocketconfiger对象时加上configeration注解时启动项目 报错 no class然后我把版本更换成了5.3.3 重启问题解决 。"
 tags:
   - CSDN迁移
 ---

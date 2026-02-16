@@ -1,7 +1,6 @@
 ---
 title: "MySQL45讲笔记04深入浅出索引上"
 date: 2023-03-03
-description: "mysql实战45讲"
 tags:
   - CSDN迁移
 ---

@@ -1,7 +1,6 @@
 ---
 title: "Spring的自动装配xml"
 date: 2021-01-21
-description: "Spring的自动装配autowire=“byName”意思是当bean中的引用类型的别名（例如 Dao dao=null dao就是别名）与 另外的bean的id 或者 name 相同则此bean被装配autowire=“byType”意思是当包含引用类型的bean 中的引用类型的class与另外一个bean标签属性的class属于同源关系就可以被包含引用类型的bean引用。同源关系的意思是：两"
 tags:
   - CSDN迁移
 ---

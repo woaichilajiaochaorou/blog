@@ -1,18 +1,17 @@
 ---
 title: "c语言进制转换 栈的操作"
 date: 2020-03-25
-description: "#include <stdio.h>  #include <string.h>  #include <stdlib.h> #include<math.h> #include <windows.h>#define maxsize 20#define Elemtype char  typedef struct {	Elemty..."
 tags:
   - CSDN迁移
 ---
 
 # c语言进制转换 栈的操作
 
-#include <stdio.h>  
-    #include <string.h>  
-    #include <stdlib.h> 
-    #include<math.h> 
-    #include <windows.h>
+#include `&lt;stdio.h&gt;`  
+    #include `&lt;string.h&gt;`  
+    #include `&lt;stdlib.h&gt;` 
+    #include `&lt;math.h&gt;` 
+    #include `&lt;windows.h&gt;`
     #define maxsize 20
     #define Elemtype char  
     typedef struct {

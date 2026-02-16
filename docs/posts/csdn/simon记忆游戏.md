@@ -1,18 +1,17 @@
 ---
 title: "Simon记忆游戏"
 date: 2020-01-20
-description: "这是我的一个小游戏simon#include <stdio.h>#include <ctype.h>#include <stdbool.h>#include <stdlib.h>#include <time.h>int main(){//初始化程序char another_game = 'N';bool correct ..."
 tags:
   - CSDN迁移
 ---
 
 # Simon记忆游戏
 
-#include <stdio.h>
-    #include <ctype.h>
-    #include <stdbool.h>
-    #include <stdlib.h>
-    #include <time.h>
+#include `&lt;stdio.h&gt;`
+    #include `&lt;ctype.h&gt;`
+    #include `&lt;stdbool.h&gt;`
+    #include `&lt;stdlib.h&gt;`
+    #include `&lt;time.h&gt;`
     
     int main(){
     

@@ -1,7 +1,6 @@
 ---
 title: "spring-boot源码分析--响应json 返回值处理"
 date: 2021-08-23
-description: "1，spring-boot 引入web包后带有json的stater。只需在类方法上面responseBody就可以。2，有返回值解析器returnValueHandlers进行处理。3，执行完这个方法后，得到返回值，进行一些返回值安全判断后。4，使用返回值处理器进行处理。下面分析这个方法怎么处理：1.首先调用了这个方法：stepover --》stepinto2.来到真正的处理方法中：首先，选择"
 tags:
   - CSDN迁移
 ---

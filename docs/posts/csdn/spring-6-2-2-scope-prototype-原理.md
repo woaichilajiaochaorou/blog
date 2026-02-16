@@ -1,7 +1,6 @@
 ---
 title: "Spring 6.2.2 @scope(“prototype“)原理"
 date: 2025-02-08
-description: "spring scope prototype 原理"
 tags:
   - CSDN迁移
 ---
@@ -33,8 +32,8 @@ tags:
 在`context.getBean();`方法中，有一个核心方法`doGetBean()`
     
     
-    protected <T> T doGetBean(
-    			String name, @Nullable Class<T> requiredType, @Nullable Object[] args, boolean typeCheckOnly)
+    protected &lt;T&gt; T doGetBean(
+    			String name, @Nullable Class&lt;T&gt; requiredType, @Nullable Object[] args, boolean typeCheckOnly)
     			throws BeansException {
     			......省略
     			try {

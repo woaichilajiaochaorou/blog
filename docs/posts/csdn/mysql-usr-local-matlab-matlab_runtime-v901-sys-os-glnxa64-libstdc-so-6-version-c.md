@@ -1,7 +1,6 @@
 ---
 title: "mysql: /usr/local/MATLAB/MATLAB_Runtime/v901/sys/os/glnxa64/libstdc++.so.6: version `CXXABI_1.3.9‘ n"
 date: 2021-12-09
-description: "项目场景：运行在centos中，执行mysql指令出错mysql: /usr/local/MATLAB/MATLAB_Runtime/v901/sys/os/glnxa64/libstdc++.so.6: version `CXXABI_1.3.9’ not found (required by mysql) centos问题描述：执行终端mysql命令出错原因分析：matlab中的libstdc"
 tags:
   - CSDN迁移
 ---

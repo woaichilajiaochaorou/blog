@@ -1,7 +1,6 @@
 ---
 title: "编译spring 6.2.2"
 date: 2025-02-08
-description: "spring6 编译 "
 tags:
   - CSDN迁移
 ---

@@ -1,19 +1,18 @@
 ---
 title: "c语言链表文件操作实现学生信息管理系统"
 date: 2020-03-22
-description: "#include<stdio.h>#include<stdlib.h>#include<string.h>#include<time.h>#include <unistd.h>#include<windows.h>struct student{int age;float math;struct student..."
 tags:
   - CSDN迁移
 ---
 
 # c语言链表文件操作实现学生信息管理系统
 
-#include<stdio.h>
-    #include<stdlib.h>
-    #include<string.h>
-    #include<time.h>
-    #include <unistd.h>
-    #include<windows.h>
+#include `&lt;stdio.h&gt;`
+    #include `&lt;stdlib.h&gt;`
+    #include `&lt;string.h&gt;`
+    #include `&lt;time.h&gt;`
+    #include `&lt;unistd.h&gt;`
+    #include `&lt;windows.h&gt;`
     struct student{
        
        

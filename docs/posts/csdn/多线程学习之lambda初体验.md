@@ -1,7 +1,6 @@
 ---
 title: "多线程学习之lambda初体验"
 date: 2021-05-28
-description: "很多人对lambda表达式表示费解，很正常。一下是一些实例：lambda表达式 简化函数式接口实现的过程。函数式接口就是 该接口只有一个方法。就叫函数式接口1. 首先来看看匿名内部类的写法public class lambda {    public static void main(String[] args) {        runnable myrunnable=new runnable("
 tags:
   - CSDN迁移
 ---

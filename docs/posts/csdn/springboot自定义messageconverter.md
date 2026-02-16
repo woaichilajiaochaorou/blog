@@ -1,7 +1,6 @@
 ---
 title: "springboot自定义messageConverter"
 date: 2021-08-24
-description: "如果想自定义传输数据的类型 需要设置自己的messageConverterpublic class YanMessageConverter implements HttpMessageConverter {    @Override    public boolean canRead(Class clazz, MediaType mediaType) {        return false; "
 tags:
   - CSDN迁移
 ---
@@ -24,9 +23,9 @@ tags:
         }
     
         @Override
-        public List<MediaType> getSupportedMediaTypes() {
+        public List&lt;MediaType&gt; getSupportedMediaTypes() {
             MediaType mediaType = MediaType.parseMediaType("application/yan");
-            ArrayList<MediaType> objects = new ArrayList<>();
+            ArrayList&lt;MediaType&gt; objects = new ArrayList<>();
             objects.add(mediaType);
             return objects;
         }
@@ -76,7 +75,7 @@ tags:
     //自定义转换器，转换自定义的字符串格式
         @Override
         public void addFormatters(FormatterRegistry registry) {
-            registry.addConverter(new Converter<String, Pet>() {
+            registry.addConverter(new Converter&lt;String, Pet&gt;() {
                 @Override
                 public Pet convert(String source) {
                     String[] split = source.split(",");
@@ -91,7 +90,7 @@ tags:
         @Override
         public void configureContentNegotiation(ContentNegotiationConfigurer configurer) {
             //configurer.strategies();
-            HashMap<String, MediaType> stringMediaTypeHashMap = new HashMap<>();
+            HashMap&lt;String, MediaType&gt; stringMediaTypeHashMap = new HashMap<>();
             stringMediaTypeHashMap.put("xml",MediaType.APPLICATION_XML);
             stringMediaTypeHashMap.put("json",MediaType.APPLICATION_JSON);
             stringMediaTypeHashMap.put("yan",MediaType.parseMediaType("application/yan"));
@@ -107,7 +106,7 @@ tags:
         }
     	//添加自定义messageConverter
         @Override
-        public void extendMessageConverters(List<HttpMessageConverter<?>> converters) {
+        public void extendMessageConverters(List&lt;HttpMessageConverter&lt;?&gt;> converters) {
             converters.add(new YanMessageConverter());
         }
     }

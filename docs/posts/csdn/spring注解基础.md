@@ -1,7 +1,6 @@
 ---
 title: "spring注解基础"
 date: 2021-01-22
-description: "spring注解注入基础@component ：创建对象的 等同于< bean>的功能《bean id=“mystudent” class=“包路径.类名”》属性：value 就是对象的名称 也就是bean的id值value值是唯一的，创建的对象在容器中只有一份放置的位置：在类的上面。@repository 用于dao类表示此类能访问数据库@service 表示的类适用于业务处理可以有事务的功能@"
 tags:
   - CSDN迁移
 ---

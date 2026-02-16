@@ -1,7 +1,6 @@
 ---
 title: "HttpMessageConverter原理"
 date: 2021-08-23
-description: "1.判断当前响应是否有了确定的媒体类型。2.获取客户端支持的接受类型。（header accept 字段 ）这里用postman故意设置为xml然后找到一个合适的converter进行write"
 tags:
   - CSDN迁移
 ---

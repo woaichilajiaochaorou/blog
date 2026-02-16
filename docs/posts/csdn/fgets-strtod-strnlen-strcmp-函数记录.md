@@ -1,19 +1,18 @@
 ---
 title: "fgets()，strtod(),strnlen(),strcmp()函数记录"
 date: 2020-02-10
-description: "#include<stdio.h>#include<stdbool.h>#include<stdlib.h>#include<math.h>#include<ctype.h>#include<string.h>#define buf_len 256#define STDC_WANT_LIB_EXT1 1int ..."
 tags:
   - CSDN迁移
 ---
 
 # fgets()，strtod(),strnlen(),strcmp()函数记录
 
-#include<stdio.h>  
-#include<stdbool.h>  
-#include<stdlib.h>  
-#include<math.h>  
-#include<ctype.h>  
-#include<string.h>  
+#include `&lt;stdio.h&gt;`  
+#include `&lt;stdbool.h&gt;`  
+#include `&lt;stdlib.h&gt;`  
+#include `&lt;math.h&gt;`  
+#include `&lt;ctype.h&gt;`  
+#include `&lt;string.h&gt;`  
 #define buf_len 256  
 #define **STDC_WANT_LIB_EXT1** 1  
 int main(){  
