@@ -5,6 +5,7 @@ export default defineConfig({
   description: '个人技术博客',
   lang: 'zh-CN',
   cleanUrls: true,
+  base: '/blog/',
   head: [
     ['meta', { name: 'author', content: 'Shannon' }],
   ],
@@ -28,10 +29,10 @@ export default defineConfig({
       ],
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/shannonyan' },
+      { icon: 'github', link: 'https://github.com/woaichilajiaochaorou' },
     ],
     footer: {
-      message: 'Powered by VitePress | Deployed on Oracle Cloud',
+      message: 'Powered by VitePress | Deployed on GitHub Pages',
       copyright: 'Copyright © 2026 Shannon',
     },
     outline: { level: [2, 3], label: '目录' },
